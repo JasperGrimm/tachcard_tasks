@@ -37,11 +37,16 @@ SELECT;
                 }
 
                 $sql_v2 = <<<'SELECT'
-SELECT r1.id, name, pub FROM randomtest AS r1
-JOIN (
-    SELECT ( RAND() * (SELECT MAX(id) FROM randomtest) ) AS id
-) AS r2
-WHERE r1.id >= r2.id ORDER BY r1.id ASC LIMIT 1;
+SELECT rt.id, name, pub FROM randomtest rt
+            JOIN (
+                SELECT rtkm1.row_id FROM randomtest_keymapper AS rtkm1
+                JOIN (
+                    SELECT (
+                        (SELECT MAX(id) FROM randomtest_keymapper) * RAND()
+                    ) AS `key`
+                ) as r_random ON r_random.`key` <= rtkm1.id
+            ) AS rtkm2 ON rt.id = rtkm2.row_id
+            ORDER BY rtkm2.row_id ASC LIMIT 1
 SELECT;
                 $res = $app->db->query($sql_v2);
                 if ($res){

@@ -3,7 +3,9 @@ tachcard_tasks
 
 ##INSTALL
 > npm -g install bower
+
 > bower install
+
 > composer install
 
 > В файле public/index.php редактируем параметры подключения к БД

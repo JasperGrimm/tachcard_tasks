@@ -46,9 +46,11 @@ pub - признак публикации (1- запись участвует в
 Необходимо написать скрипт для заполнения таблички и для выборки.
 </pre>
 
-    </div>
+</div>
 <div class="well-lg">
-    <span class="h3"><a href="#">Исходный код</a></span>
+    <span class="h3">
+        <a href="https://github.com/Djakson/tachcard_tasks/blob/master/application/System/Controllers/TaskController.php">Исходный код</a>
+    </span>
 </div>
 <div class="well-lg">
     <span class="h3">Решение</span>

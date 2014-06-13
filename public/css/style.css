@@ -1,0 +1,255 @@
+.bs-example {
+    position: relative;
+    padding: 45px 15px 15px;
+    margin: 0 -15px 15px;
+    background-color: #fafafa;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,.05);
+    border-color: #e5e5e5 #eee #eee;
+    border-style: solid;
+    border-width: 1px 0;
+}
+
+.bs-callout {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 3px solid #eee;
+}
+
+.bs-callout-info {
+    background-color: #f4f8fa;
+    border-color: #5bc0de;
+}
+
+.bs-example pre {
+    background-color: initial!important;
+    border: 0!important;
+ }
+
+.justify_container {
+    width: 100%;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+.ya_header, .ya_footer {
+    position: absolute;
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.copy {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    width: 600px;
+}
+
+.ya_header {
+    top: 0;
+}
+
+.ya_header a {
+    color: #ee7b00;
+}
+
+.start_page_link {
+    margin: 5px 0 0 20px;
+}
+
+.ya_footer {
+    bottom: 0;
+    margin: auto auto 10px auto;
+    left: 0;
+    right: 0;
+    height: 30px;
+}
+
+.ya_footer p {
+    padding: 5px;
+}
+
+.ya_container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: 80%;
+    margin: auto;
+}
+
+.ya_container .search_row {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    margin: auto;
+}
+
+.search_row .text {
+    width: calc(100% - 100px);
+    border: 1px solid #DDDDDD;
+    padding: 3px 0px 3px 3px;
+    height: 28px;
+    margin-top: 8px;
+}
+
+.search_row .row > div {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.search_row .logo {
+    background: url(../images/logo.png) no-repeat;
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+
+.search_row .text:focus {
+    box-shadow: 0 0 5px rgba(238, 181, 45, 1);
+    padding: 3px 0px 3px 3px;
+    /*margin: 5px 1px 3px 0px;*/
+    border: 1px solid rgba(238, 181, 45, 1);
+}
+
+.ya_button {
+    width: 68px;
+    height: 28px;
+    display: inline-block;
+    color: #000000;
+    font-size: 10pt;
+    margin-top: 8px;
+}
+
+.ya_button:before {
+    content: " ";
+    background: url("../images/btn_sprite.png") 0 0;
+    width: 5px;
+    height: 28px;
+    display: inherit;
+    position: absolute;
+
+}
+
+.ya_button:after {
+    content: " ";
+    background: url("../images/btn_sprite.png") 100% -57px;
+    width: 11px;
+    height: 100%;
+    display: inherit;
+    float: left;
+    position: relative;
+}
+
+.ya_button input[type="submit"] {
+    margin-left: 5px;
+    border: 0;
+    height: 28px;
+    background: url(../images/btn_sprite.png) 100% -114px;
+    width: calc(100% - 25px);
+    position: relative;
+    float: left;
+}
+
+.ya_button:hover {
+    color: #333333;
+}
+
+.search_input {
+    line-height: 40px;
+}
+
+.ya_button:hover input[type="submit"] {
+    background-position: 100% -285px;
+}
+
+.ya_button:hover:before {
+    background-position: 0 -171px;
+}
+
+.ya_button:hover:after {
+    background-position: 100% -228px;
+}
+
+.ya_button:active input[type="submit"] {
+    background-position: 100% -457px;
+}
+
+.ya_button:active:before {
+    background-position: 0 -343px;
+}
+
+.ya_button:active:after {
+    background-position: 100% -400px;
+}
+
+
+ul.horizontal {
+    list-style: none;
+    /*width: 250px;*/
+    margin-right: 20px;
+}
+
+ul.horizontal li {
+    float: left;
+    margin: 5px;
+}
+
+
+.form-button {
+    background: url("../images/btn_sprite.png");
+}
+
+.form-button_submit {
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    vertical-align: top;
+    border: 0;
+    outline: 0;
+    background-repeat: repeat-x;
+    background-position: 100% -55px;
+}
+
+.form-button_content {
+    font: 13px Arial,sans-serif;
+    display: inline-block;
+    height: 26px;
+    text-align: center;
+    white-space: nowrap;
+    background-repeat: repeat-x;
+    background-position: 0 -114px;
+}
+
+.code pre {
+    padding: 0;
+}
+
+.cm-keyword {
+    color: orangered;
+}
+
+.cm-variable {
+    color: #000000;
+}

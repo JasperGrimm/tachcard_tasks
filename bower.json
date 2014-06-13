@@ -1,0 +1,27 @@
+{
+  "name": "tachcard_tasks",
+  "version": "0.0.1",
+  "authors": [
+    "Jasper Grimm <grimmsper@gmail.com>"
+  ],
+  "description": "Тестовое задание от tachcard.com",
+  "main": "index.html",
+  "keywords": [
+    "php",
+    "angularjs",
+    "mysql",
+    "test"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "bootstrap": "*",
+      "angular": "*"
+  }
+}

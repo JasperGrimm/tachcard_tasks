@@ -1,0 +1,5 @@
+public/vendors
+vendor
+.idea/
+composer.lock
+atlassian-ide-plugin.xml

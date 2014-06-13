@@ -13,7 +13,8 @@ tachcard_tasks
 > composer install
 
 > В файле public/index.php редактируем параметры подключения к БД
-БД должна быть создана заранее
+
+> **БД должна быть создана заранее!**
 
 ```php
 $app->configureMode('development', function () use ($app) {

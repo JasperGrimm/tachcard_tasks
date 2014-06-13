@@ -1,7 +1,11 @@
 tachcard_tasks
 ==============
+Проект сделан на базе фреймворка Slim
+Работа с MySQL через mysqli.
+
 
 ##INSTALL
+
 > npm -g install bower
 
 > bower install

@@ -38,7 +38,7 @@ $main_container_class = 'justify_container';
             <div class="row">
                 <div class="col-xs-10 search_input">
                     <div class="logo"></div>
-                    <input type="text" class="text">
+                    <input type="text" autofocus class="text">
                 </div>
                 <div class="col-xs-2">
                     <a class="ya_button">
